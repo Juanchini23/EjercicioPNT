@@ -21,6 +21,6 @@ public class Shampoo extends Producto{
 
     @Override
     public String toString() {
-        return "Nombre: "+ super.getNombre() + " /// Contenido: " + this.contenido + " /// Precio: " + super.getPrecio();
+        return "Nombre: "+ super.getNombre() + " /// Contenido: " + this.contenido + "ml /// Precio: $" + super.getPrecio();
     }
 }

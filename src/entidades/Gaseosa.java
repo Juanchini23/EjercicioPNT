@@ -21,6 +21,6 @@ public class Gaseosa extends Producto{
 
     @Override
     public String toString() {
-        return "Nombre: "+ super.getNombre() + " /// Litros: " + this.litros + " /// Precio: " + super.getPrecio();
+        return "Nombre: "+ super.getNombre() + " /// Litros: " + this.litros + " /// Precio: $" + super.getPrecio();
     }
 }

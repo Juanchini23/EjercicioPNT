@@ -21,6 +21,6 @@ public class FrutaVerdura extends Producto{
 
     @Override
     public String toString() {
-        return "Nombre: "+ super.getNombre() + " /// Precio: " + super.getPrecio() + " /// Unidad de venta: " + this.uDeVenta ;
+        return "Nombre: "+ super.getNombre() + " /// Precio: $" + super.getPrecio() + " /// Unidad de venta: " + this.uDeVenta ;
     }
 }
